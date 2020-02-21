@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: auto / 1fr 1fr 1fr;  /*4 rows and 3 columns*/
+  grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;  /*4 rows and 3 columns*/
   /*change row or columns size 1fr 1fr 2fr 1fr / 1fr 1fr 2fr; */
 
 }
