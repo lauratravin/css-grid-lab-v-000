@@ -11,8 +11,8 @@ body {
   display: grid;
   /*grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;  /*4 rows and 3 columns*/*/
   /*change row or columns size 1fr 1fr 2fr 1fr / 1fr 1fr 2fr; */
-  grid-template-rows: : repeat(4, 2fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: : repeat(4, 1fr);
+  grid-template-columns: repeat(3, 2fr);
 }
 
 .grid-item {
